@@ -2,12 +2,12 @@
 -- CHARACTER SET utf8mb4 creates the database as UTF-8. This make it possible to use norwegian letters æøå
 -- COLLATE utf8mb4_unicode_ci makes data saved in the database "case insensitive". This means that it is possible 
 -- to do queries and get results without take into consideraton if the application_name is saved as Steam, STEAM or steam
-CREATE DATABASE IF NOT EXISTS vaultdb_test
+CREATE DATABASE IF NOT EXISTS password-vault
   CHARACTER SET utf8mb4
   COLLATE utf8mb4_unicode_ci;
 
 -- Use the newly created database
-USE vaultdb_test;
+USE password-vault;
 
 -- Create the User table
 -- user_id is given a unique value with AUTO_INCREMENT and is set as a primary key
