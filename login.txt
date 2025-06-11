@@ -1,4 +1,4 @@
 host=localhost
 user=root
 password=
-database=password-vault
+database=password_vault
